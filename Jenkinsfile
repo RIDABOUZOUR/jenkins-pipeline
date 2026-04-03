@@ -24,6 +24,7 @@ pipeline {
                     // Publier les résultats JUnit dans l'interface Jenkins
                     junit 'target/surefire-reports/*.xml'
                 }
+
             }
         }
     }
